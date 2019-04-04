@@ -1,11 +1,2 @@
-<h3>Class Form</h3>
-
-<%= form_for(@school_class) do |f| %>
-  <label>Course Name:</label><br>
-  <%= f.text_field :title %><br>
-
-  <label>Room Number</label><br>
-  <%= f.text_field :room_number %><br>
-
-  <%= f.submit %>
-<% end %>
+<h1><%= @school_class.title %></h1>
+<h2><%= @school_class.room_number %></h2>
